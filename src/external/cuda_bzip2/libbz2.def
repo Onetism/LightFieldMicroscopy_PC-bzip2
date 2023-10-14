@@ -1,0 +1,27 @@
+LIBRARY			LIBBZ2
+DESCRIPTION		"libbzip2: library for data compression"
+EXPORTS
+	cuda_BZ2_bzCompressInit
+	cuda_BZ2_bzCompress
+	cuda_BZ2_bzCompressEnd
+	cuda_BZ2_bzDecompressInit
+	cuda_BZ2_bzDecompress
+	cuda_BZ2_bzDecompressEnd
+	cuda_BZ2_bzReadOpen
+	cuda_BZ2_bzReadClose
+	cuda_BZ2_bzReadGetUnused
+	cuda_BZ2_bzRead
+	cuda_BZ2_bzWriteOpen
+	cuda_BZ2_bzWrite
+	cuda_BZ2_bzWriteClose
+	cuda_BZ2_bzWriteClose64
+	cuda_BZ2_bzBuffToBuffCompress
+	cuda_BZ2_bzBuffToBuffDecompress
+	cuda_BZ2_bzlibVersion
+	cuda_BZ2_bzopen
+	cuda_BZ2_bzdopen
+	cuda_BZ2_bzread
+	cuda_BZ2_bzwrite
+	cuda_BZ2_bzflush
+	cuda_BZ2_bzclose
+	cuda_BZ2_bzerror
